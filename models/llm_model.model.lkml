@@ -3,7 +3,7 @@ connection: "inhouse_bi"
 
 # include all the views
 include: "/views/**/*.view.lkml"
-# include: "/dashboard/*.dashboard.lookml"
+include: "/dashboard/*.dashboard.lookml"
 
 
 # Datagroups define a caching policy for an Explore. To learn more,
