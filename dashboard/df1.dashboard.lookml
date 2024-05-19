@@ -1,5 +1,5 @@
 - dashboard: df1
-  title: dft
+  title: dfg3
   layout: newspaper
   preferred_viewer: dashboards-next
   description: ''
@@ -7,10 +7,10 @@
   elements:
   - name:  add_a_unique_name_1702279757
     title:  Untitled Visualization
-    model:  retail_orders
-    explore:  Frame
+    model:  llm_model
+    explore:  retail_orders
     type:  looker_bar
-    fields:  [retail_orders.city, retail_orders.country]
+    fields:  [retail_orders.city,retail_orders.country]
     sorts:  [retail_orders.city desc 0]
     limit:  500
     column_limit:  50
